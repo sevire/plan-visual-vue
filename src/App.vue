@@ -13,16 +13,18 @@
 
 import Plan from '@/views/Plan'
 import PlanVisual from '@/components/PlanVisual'
+import plan_data from './assets/plan_data.json'
 
 export default {
   name: 'App',
   data () {
     return {
-      plan_data: [
-        { id: 1, name: 'Activity 1', start_date: '2022-01-01', end_date: '2022-03-01' },
-        { id: 2, name: 'Activity 2', start_date: '2022-02-01', end_date: '2022-05-01' },
-        { id: 3, name: 'Activity 8', start_date: '2022-03-01', end_date: '2022-07-01' }
-      ]
+      plan_data: plan_data
+      //     [
+      //   { id: 1, name: 'Activity 1', start_date: '2022-01-01', end_date: '2022-03-01' },
+      //   { id: 2, name: 'Activity 2', start_date: '2022-02-01', end_date: '2022-05-01' },
+      //   { id: 3, name: 'Activity 8', start_date: '2022-03-01', end_date: '2022-07-01' }
+      // ]
     }
   },
   components: {

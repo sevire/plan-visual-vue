@@ -1,4 +1,4 @@
-# scratch-09
+# Vue.js 3 webapp to implement plan visualiser
 
 ## Project setup
 ```
